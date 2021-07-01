@@ -1,0 +1,18 @@
+name: my_super_project
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - numpy
+  - pandas
+  - fastapi
+  - jupyterlab>=3
+  - jupyterlab-git
+  - pydantic
+  - starlette
+  - uvicorn
+  - sqlalchemy
